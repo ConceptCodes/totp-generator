@@ -28,14 +28,14 @@ Before using this tool, make sure you have Node.js and Yarn installed on your sy
 2. Install the required dependencies:
 
     ```sh
-    yarn install
+    bun install
     ```
 
 ## Usage
 To run the TOTP Generator CLI, execute the following command in your terminal:
 
 ```sh
-yarn start
+bun start
 ```
 
 Follow the on-screen prompts to provide your application name and username. The CLI will then generate a TOTP secret for you and display it as a QR code. You will be prompted to enter the TOTP code to verify its correctness.
