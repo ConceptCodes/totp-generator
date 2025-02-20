@@ -6,6 +6,8 @@ A simple command-line tool to generate Time-Based One-Time Passwords (TOTPs) usi
 This tool allows you to generate TOTP secrets, display them as QR codes (to scan in your authenticator app of choice), 
 and verify the generated tokens.
 
+![TOTP Generator CLI](https://i.imgur.com/Dx8GmhL.png)
+
 ## Features
 - Generate TOTP secrets using the node-2fa library.
 - Display TOTP secrets as QR codes for easy scanning.
